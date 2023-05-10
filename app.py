@@ -9,9 +9,9 @@ app = Flask(__name__)
 def portal():
     return  render_template('portal.html') 
 
-@app.route('/index/')
+@app.route('/Dashboard')
 def naya():
-    return  render_template('index.html') 
+    return  render_template('Dashboard.html') 
 
 @app.route('/login')
 def nayaa():
